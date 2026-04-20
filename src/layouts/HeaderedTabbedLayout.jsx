@@ -15,7 +15,7 @@ import {
   Tabs,
   Typography,
 } from "@mui/material";
-import { ActionsMenu } from "/src/components/actions-menu";
+import { ActionsMenu } from "../components/actions-menu";
 import { useMediaQuery } from "@mui/material";
 
 export const HeaderedTabbedLayout = (props) => {
@@ -115,7 +115,7 @@ export const HeaderedTabbedLayout = (props) => {
               !mdDown && {
                 flexGrow: 1,
                 overflow: "auto",
-                height: "calc(100vh - 30px)",
+                height: "calc(100vh - 350px)",
               }
             }
           >
